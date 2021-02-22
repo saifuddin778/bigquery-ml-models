@@ -2,7 +2,7 @@
 
 This repository contains some examples of how we can build common machine learning / probabilistic models inside BigQuery's resourceful world.
 
-Rationale being: If bq offers compute resources via horizontal scaling, it can theoretically be utilized to solve a lot of data intensive tasks right there in the sql world.
+Rationale being: If bq offers scalable compute resources, it can theoretically be utilized to solve a lot of datascience intensive tasks right there in the sql world.
 
 
 ##### Note:

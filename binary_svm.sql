@@ -1,6 +1,6 @@
 -- this example trains a standard binary support vector machine 
 -- model using a small fake dataset. Its using external UDF, but good point 
--- is bq's potentially `unlimited` resource to power the thing.
+-- is bq's potential resources to power the thing.
 -- saif, a.
 -- 11/2018
 CREATE TEMPORARY FUNCTION train(data Array< STRUCT<x float64, y float64, label int64>>)
